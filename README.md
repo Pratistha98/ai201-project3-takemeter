@@ -125,6 +125,14 @@ Valid labels: hot_take, analysis, reaction
 | hot_take | 0.82 | 1.00 | 0.90 | 9 |
 | reaction | 1.00 | 0.70 | 0.82 | 10 |
 
+### Per-Class Metrics — Fine-Tuned DistilBERT
+
+| Label | Precision | Recall | F1 | Support |
+|---|---|---|---|---|
+| analysis | 1.00 | 1.00 | 1.00 | 11 |
+| hot_take | 0.71 | 0.56 | 0.62 | 9 |
+| reaction | 0.67 | 0.80 | 0.73 | 10 |
+
 ### Confusion Matrix — Fine-Tuned Model
 
 | | Predicted: analysis | Predicted: hot_take | Predicted: reaction |
